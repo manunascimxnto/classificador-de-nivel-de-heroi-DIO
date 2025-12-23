@@ -5,12 +5,8 @@
 ---
 
 ## 🛠️ Skills developed in the bootcamp:
-- Programming Logic  
-- Problem Solving  
-- JavaScript  
-- Git  
-- GitHub  
-- Agile Methodologies (Scrum)  
+
+![Programming Logic](https://img.shields.io/badge/Programming%20Logic-blue) ![Problem Solving](https://img.shields.io/badge/Problem%20Solving-green) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Git](https://img.shields.io/badge/Git-orange) ![GitHub](https://img.shields.io/badge/GitHub-black) ![Agile Methodologies (Scrum)](https://img.shields.io/badge/Agile%20Methodologies%20(Scrum)-purple)
 
 ---
 
