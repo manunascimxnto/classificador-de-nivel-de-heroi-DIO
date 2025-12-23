@@ -1,28 +1,61 @@
-# 1️⃣ Desafio Classificador de Nível de Herói
+# ⚔️ Hero Level Classifier (DIO)
 
-**O que deve ser utilizado**
+> This project was developed as part of the **"Programação do Zero (Programming from Scratch)"** bootcamp by *[Digital Innovation One (DIO)](https://www.dio.me)*, carried out in *2023*. The goal was to practice basic programming concepts in **JavaScript**, such as **how to use variables to store data, applying decision structures (if/else), practicing loops and logical conditions, and building a simple classification system in JavaScript**.
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+---
 
-## Objetivo
+## 🛠️ Skills developed in the bootcamp:
+- Programming Logic  
+- Problem Solving  
+- JavaScript  
+- Git  
+- GitHub  
+- Agile Methodologies (Scrum)  
 
-Criar uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilizar uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+---
 
-Se XP for menor do que 1.000 = Ferro
-Se XP for entre 1.001 e 2.000 = Bronze
-Se XP for entre 2.001 e 5.000 = Prata
-Se XP for entre 6.001 e 7.000 = Ouro
-Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000= Imortal
-Se XP for maior ou igual a 10.001 = Radiante
+## 🎯 Goal
 
-## Saída
+Create a variable to store the hero’s **name** and **experience points (XP)**, then use a decision structure to classify the hero into one of the following levels:
 
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
+- XP < 1000 → **Iron**  
+- XP between 1001 and 2000 → **Bronze**  
+- XP between 2001 and 5000 → **Silver**  
+- XP between 6001 and 7000 → **Gold**  
+- XP between 7001 and 8000 → **Platinum**  
+- XP between 8001 and 9000 → **Ascendant**  
+- XP between 9001 and 10000 → **Immortal**  
+- XP ≥ 10001 → **Radiant**  
 
-<3
+---
+
+## 🚀 Usage Example
+
+```javascript
+function classifier() {
+  var name = "Arthus";
+  var xp = 7500;
+  var level = "";
+
+  if (xp <= 1000) {
+    level = "Iron";
+  } else if (xp <= 2000) {
+    level = "Bronze";
+  } else if (xp <= 5000) {
+    level = "Silver";
+  } else if (xp <= 7000) {
+    level = "Gold";
+  } else if (xp <= 8000) {
+    level = "Platinum";
+  } else if (xp <= 9000) {
+    level = "Ascendant";
+  } else if (xp <= 10000) {
+    level = "Immortal";
+  } else {
+    level = "Radiant";
+  }
+
+  console.log("The Hero named " + name + " is at level " + level);
+}
+
+classifier();
